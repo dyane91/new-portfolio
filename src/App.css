@@ -7,6 +7,8 @@ p {
         boostrap adds a margin-bottom to every p. lets remove it here
     */
     margin-bottom: 0;
+
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #app {

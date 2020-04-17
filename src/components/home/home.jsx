@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './home.css';
 import {Animated} from "react-animated-css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Row, Col }  from 'react-bootstrap';
 
+import './home.css';
 export class Home extends Component {
 	render() {
 		return (
