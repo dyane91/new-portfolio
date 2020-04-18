@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Badge }  from 'react-bootstrap';
+import { Row, Col, Badge }  from 'react-bootstrap';
 
 export class Skills extends Component {
   render() {
