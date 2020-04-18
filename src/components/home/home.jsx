@@ -26,7 +26,7 @@ export class Home extends Component {
 
         <Col xs={12} sm={1} className="mb-sm-5">
           <div className="d-flex flex-sm-column flex-xs-row justify-content-center align-items-center">
-            <a href="https://github.com/dyane91" className="text-muted p-4">
+            <a href="https://github.com/dyane91" className="text-muted p-4" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={['fab', 'github']} size="lg" color="white" />
             </a>
 
