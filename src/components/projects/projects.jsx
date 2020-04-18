@@ -24,7 +24,7 @@ export class Projects extends Component {
               iconClassName="circle-timeline"
               contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
-              <div className="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+              <div className="d-flex flex-column flex-sm-row justify-content-around align-items-center">
                 <div className="d-flex justify-content-center align-items-center">
                   <FontAwesomeIcon icon={['fas', 'seedling']} size="3x" color="white" />
                 </div>
@@ -46,7 +46,7 @@ export class Projects extends Component {
               iconClassName="circle-timeline"
               contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
-              <div className="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+              <div className="d-flex flex-column flex-sm-row justify-content-around align-items-center">
                 <div className="d-flex justify-content-center align-items-center">
                   <FontAwesomeIcon icon={['fas', 'gamepad']} size="3x" color="white" />
                 </div>
@@ -88,7 +88,7 @@ export class Projects extends Component {
               iconClassName="circle-timeline"
               contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
-              <div className="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+              <div className="d-flex flex-column flex-sm-row justify-content-around align-items-center">
                 <div className="d-flex justify-content-center align-items-center">
                   <FontAwesomeIcon icon={['fas', 'cart-arrow-down']} size="3x" color="white" />
                 </div>
