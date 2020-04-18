@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import Scrollchor from 'react-scrollchor';
 
-import { Home, About, Projects } from '../components';
+import { Home, About, Projects, Skills } from '../components';
 
 export class Mainpage extends React.Component {
 	render() {
@@ -22,6 +22,7 @@ export class Mainpage extends React.Component {
 				<Home />
         <About />
         <Projects />
+        <Skills />
 			</Container>
 		);
 	}
