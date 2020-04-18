@@ -1,0 +1,11 @@
+.circle-timeline {
+    height: 30px!important;
+    width: 30px!important;
+    margin-left: -15px!important;
+}
+
+@media screen and (max-width: 1200px) {
+    .circle-timeline {
+        margin-left: 5px!important;
+    }
+}
