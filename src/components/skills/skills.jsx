@@ -28,7 +28,7 @@ export class Skills extends Component {
           <div className="w-100 w-md-50 mt-5 mt-lg-0">
             <div className="w-100">
               <p className="h2 mb-4">FAMILIAR</p>
-              <div className="w-75 mx-auto d-flex flex-wrap">
+              <div className="w-75 mx-auto d-flex flex-wrap justify-content-lg-center">
                 <Badge pill variant="primary" className="py-3 px-4 px-md-5 m-2">Angular</Badge>
                 <Badge pill variant="primary" className="p-3 px-4 px-md-5 m-2">Docker</Badge>
                 <Badge pill variant="primary" className="p-3 px-4 px-md-5 m-2">Kubernetes</Badge>

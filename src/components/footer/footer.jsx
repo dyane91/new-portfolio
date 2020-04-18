@@ -12,7 +12,7 @@ export class Footer extends Component {
           <Card className="border-0 bg-transparent">
             <Card.Text>Made By Dyane</Card.Text>
             <div className="d-flex flex-row justify-content-center align-items-center">
-              <a href="https://github.com/dyane91" className="p-4">
+              <a href="https://github.com/dyane91" className="p-4" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab', 'github']} size="lg" color="black" />
               </a>
               <a href="https://www.linkedin.com/in/dyaneavalos/" target="_blank" rel="noopener noreferrer" className="text-muted p-4">
