@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Button }  from 'react-bootstrap';
+import { Row, Col, Card }  from 'react-bootstrap';
 
 import './learn-more.css';
 
@@ -17,7 +17,7 @@ export class LearnMore extends Component {
           <Card className="bg-transparent border-0">
             <Card.Body>
               <Card.Text>
-                <Button variant="primary">DOWNLOAD</Button>
+                <a href="https://us-central1-portfolio-f144d.cloudfunctions.net/app/api/resume" className="btn btn-primary" rel="noopener noreferrer">DOWNLOAD</a>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -27,7 +27,7 @@ export class LearnMore extends Component {
             <Card.Body>
               <Card.Title>LEARN MORE</Card.Title>
               <Card.Text>Download my resume to learn more</Card.Text>
-              <Button variant="primary" className="mt-3">DOWNLOAD</Button>
+              <a href="https://us-central1-portfolio-f144d.cloudfunctions.net/app/api/resume" className="btn btn-primary mt-4" rel="noopener noreferrer">DOWNLOAD</a>
             </Card.Body>
           </Card>
         </Col>
