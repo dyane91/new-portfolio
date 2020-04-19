@@ -10,12 +10,12 @@ export class Projects extends Component {
   render() {
     return (
       <Row className="bg-light py-5">
-        <Col xs={12}>
+        <Col xs={12} className="mb-3">
           <p className="h2">Projects</p>
           <p>Look at some projects I've been working on!</p>
         </Col>
 
-        <Col xs={12} sm={8} md={7} xl={12} className="mx-auto">
+        <Col xs={12} sm={8} md={10} lg={8} xl={12} className="mx-auto">
           <VerticalTimeline>
             <VerticalTimelineElement
               className=""
