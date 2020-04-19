@@ -12,10 +12,10 @@ export class Mainpage extends React.Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Scrollchor to="#home" className="nav-link text-uppercase da-nav-link">Home</Scrollchor>
-              <Scrollchor to="#about" className="nav-link text-uppercase da-nav-link">About</Scrollchor>
-              <Scrollchor to="#projects" className="nav-link text-uppercase da-nav-link">Projects</Scrollchor>
-              <Scrollchor to="#skills" className="nav-link text-uppercase da-nav-link">Skills</Scrollchor>
+              <Scrollchor to="#home" className="nav-link text-uppercase da-nav-link font-weight-bold">Home</Scrollchor>
+              <Scrollchor to="#about" className="nav-link text-uppercase da-nav-link font-weight-bold">About</Scrollchor>
+              <Scrollchor to="#projects" className="nav-link text-uppercase da-nav-link font-weight-bold">Projects</Scrollchor>
+              <Scrollchor to="#skills" className="nav-link text-uppercase da-nav-link font-weight-bold">Skills</Scrollchor>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

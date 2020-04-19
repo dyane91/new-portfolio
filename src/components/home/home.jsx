@@ -12,13 +12,13 @@ export class Home extends Component {
           <div>
             <Animated animationIn="zoomInUp" isVisible={true} className="d-flex justify-content-center">
               <div className="da-name w-md-25 p-4">
-                <p className="text-center">DYANE</p>
-                <p className="text-center">AVALOS</p>
+                <p className="text-center font-weight-bold">DYANE</p>
+                <p className="text-center font-weight-bold">AVALOS</p>
               </div>
             </Animated>
             <Animated animationIn="bounceInLeft" isVisible={true}>
               <div className="da-engineer p-3">
-                <p className="text-center">SOFTWARE ENGINEER</p>
+                <p className="text-center h5">SOFTWARE ENGINEER</p>
               </div>
             </Animated>
           </div>
