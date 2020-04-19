@@ -18,7 +18,9 @@ export class LearnMore extends Component {
           <Card className="bg-transparent border-0">
             <Card.Body>
               <Card.Text>
-                <a href="https://us-central1-portfolio-f144d.cloudfunctions.net/app/api/resume" className="btn btn-primary px-4 py-2" rel="noopener noreferrer"><FontAwesomeIcon icon={['fa', 'file-download']} spin/> &nbsp; DOWNLOAD</a>
+                <a href="https://us-central1-portfolio-f144d.cloudfunctions.net/app/api/resume" className="btn btn-primary px-4 py-2" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={['fa', 'file-download']} spin/> &nbsp; DOWNLOAD
+                </a>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -28,7 +30,9 @@ export class LearnMore extends Component {
             <Card.Body>
               <Card.Title>LEARN MORE</Card.Title>
               <Card.Text className="p-2">Download my most recent resume to learn more about my projects and professional work.</Card.Text>
-              <a href="https://us-central1-portfolio-f144d.cloudfunctions.net/app/api/resume" className="btn btn-primary mt-4" rel="noopener noreferrer">DOWNLOAD</a>
+              <a href="https://us-central1-portfolio-f144d.cloudfunctions.net/app/api/resume" className="btn mt-4 da-download" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={['fa', 'file-download']} spin/> &nbsp; DOWNLOAD
+              </a>
             </Card.Body>
           </Card>
         </Col>

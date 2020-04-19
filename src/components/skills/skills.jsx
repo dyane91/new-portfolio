@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Row, Col, Badge }  from 'react-bootstrap';
 
+import './skills.css';
+
 export class Skills extends Component {
   render() {
     return (
@@ -12,17 +14,17 @@ export class Skills extends Component {
             </div>
 
             <div className="w-75 mx-auto d-flex flex-wrap justify-content-lg-center">
-              <Badge pill variant="primary" className="py-3 px-4 px-md-5 m-2">Javascript</Badge>
-              <Badge pill variant="primary" className="p-3 px-4 px-md-5 m-2">HTML</Badge>
-              <Badge pill variant="primary" className="p-3 px-4 px-md-5 m-2">CSS</Badge>
-              <Badge pill variant="primary" className="p-3 px-4 px-md-5 m-2">React</Badge>
-              <Badge pill variant="primary" className="p-3 px-4 px-md-5 m-2">Redux</Badge>
-              <Badge pill variant="primary" className="py-3 px-4 px-md-5 m-2">Sequelize</Badge>
-              <Badge pill variant="primary" className="p-3 px-4 px-md-5 m-2">PostgreSQL</Badge>
-              <Badge pill variant="primary" className="p-3 px-4 px-md-5 m-2">Express</Badge>
-              <Badge pill variant="primary" className="py-3 px-4 px-md-5 m-2">Node.js</Badge>
-              <Badge pill variant="primary" className="p-3 px-4 px-md-5 m-2">Bootstrap</Badge>
-              <Badge pill variant="primary" className="p-3 px-4 px-md-5 m-2">GitHub</Badge>
+              <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Javascript</Badge>
+              <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">HTML</Badge>
+              <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">CSS</Badge>
+              <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">React</Badge>
+              <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">Redux</Badge>
+              <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Sequelize</Badge>
+              <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">PostgreSQL</Badge>
+              <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">Express</Badge>
+              <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Node.js</Badge>
+              <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">Bootstrap</Badge>
+              <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">GitHub</Badge>
             </div>
           </div>
 
@@ -30,11 +32,11 @@ export class Skills extends Component {
             <div className="w-100">
               <p className="h2 mb-4">Familiar skills</p>
               <div className="w-75 mx-auto d-flex flex-wrap justify-content-lg-center">
-                <Badge pill variant="primary" className="py-3 px-4 px-md-5 m-2">Angular</Badge>
-                <Badge pill variant="primary" className="p-3 px-4 px-md-5 m-2">Docker</Badge>
-                <Badge pill variant="primary" className="p-3 px-4 px-md-5 m-2">Kubernetes</Badge>
-                <Badge pill variant="primary" className="py-3 px-4 px-md-5 m-2">Nativescript</Badge>
-                <Badge pill variant="primary" className="py-3 px-4 px-md-5 m-2">Semiotic</Badge>
+                <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Angular</Badge>
+                <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">Docker</Badge>
+                <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">Kubernetes</Badge>
+                <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Nativescript</Badge>
+                <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Semiotic</Badge>
               </div>
             </div>
           </div>
