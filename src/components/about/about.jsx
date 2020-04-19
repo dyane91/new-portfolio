@@ -15,7 +15,7 @@ export class About extends Component {
         </Col>
 
         <Col xs={11} sm={4} className="d-flex flex-column justify-content-center align-items-center my-auto p-2 mx-auto">
-          <p className="h2">
+          <p className="h2 pb-3">
             Hello! A bit about me
           </p>
           <p className="text-justify">I'm a software engineer with lots of curiosity and excitement to learn
