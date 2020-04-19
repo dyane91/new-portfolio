@@ -12,7 +12,7 @@ export class Projects extends Component {
       <Row className="bg-light py-5">
         <Col xs={12}>
           <p className="h2">Projects</p>
-          <p className="h5">Look at some projects I've been working on!</p>
+          <p>Look at some projects I've been working on!</p>
         </Col>
 
         <Col xs={12} sm={8} md={10} lg={12} className="mx-auto">
