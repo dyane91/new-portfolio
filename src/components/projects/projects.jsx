@@ -17,6 +17,26 @@ export class Projects extends Component {
 
         <Col xs={12} sm={8} md={10} lg={8} xl={12} className="mx-auto">
           <VerticalTimeline>
+          <VerticalTimelineElement
+              className=""
+              contentStyle={{ background: 'rgb(33, 150, 243)' }}
+              textClassName="p-2 d-flex align-items-center"
+              iconClassName="circle-timeline"
+              contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+              <div className="d-flex flex-column flex-sm-row justify-content-around align-items-center">
+                <div className="d-flex justify-content-center align-items-center p-2">
+                  <FontAwesomeIcon icon={['fa', 'globe-americas']} size="4x" color="white" />
+                </div>
+                <Card className="w-100">
+                  <Card.Body>
+                    <Card.Title className="font-weight-bolder">Follow-covid19</Card.Title>
+                    <Card.Text className="font-weight-light pb-2">Web application to see up-to-date global COVID-19 statistics or to filter them by preferred country.</Card.Text>
+                    <Card.Link href="https://follow-covid19.info/" className="font-weight-bold">VISIT SITE</Card.Link>
+                  </Card.Body>
+                </Card>
+              </div>
+            </VerticalTimelineElement>
             <VerticalTimelineElement
               className=""
               contentStyle={{ background: 'rgb(33, 150, 243)' }}
