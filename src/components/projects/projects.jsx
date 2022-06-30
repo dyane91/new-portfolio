@@ -26,7 +26,27 @@ export class Projects extends Component {
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
               <div className="d-flex flex-column flex-sm-row justify-content-around align-items-center">
                 <div className="d-flex justify-content-center align-items-center p-2">
-                  <FontAwesomeIcon icon={['fa', 'globe-americas']} size="4x" color="white" />
+                  <FontAwesomeIcon icon={['fa', 'comments-dollar']} size="4x" color="white" />
+                </div>
+                <Card className="w-100">
+                  <Card.Body>
+                    <Card.Title className="font-weight-bolder">zDebt</Card.Title>
+                    <Card.Text className="font-weight-light pb-2">This iOS app provides users with a detailed plan on how much to pay to each card/debt according to your end goal (strategy), as well as notifications for never missing a payment.</Card.Text>
+                    <Card.Link href="https://testflight.apple.com/join/d3fNRFFx" className="font-weight-bold">TRY BETA VERSION</Card.Link>
+                  </Card.Body>
+                </Card>
+              </div>
+            </VerticalTimelineElement>
+          <VerticalTimelineElement
+              className=""
+              contentStyle={{ background: 'rgb(33, 150, 243)' }}
+              textClassName="p-2 d-flex align-items-center"
+              iconClassName="circle-timeline"
+              contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+              <div className="d-flex flex-column flex-sm-row justify-content-around align-items-center">
+                <div className="d-flex justify-content-center align-items-center p-2">
+                  <FontAwesomeIcon icon={['fa', 'virus']} size="4x" color="white" />
                 </div>
                 <Card className="w-100">
                   <Card.Body>
