@@ -10,7 +10,7 @@ export class Footer extends Component {
       <Row id="da-footer" className="bg-light">
         <Col xs={12} className="d-flex justify-content-center align-items-center py-3">
           <Card className="border-0 bg-transparent">
-            <Card.Text>©2020 Made by Dyane Avalos</Card.Text>
+            <Card.Text>©2022 Made by Dyane Avalos</Card.Text>
             <div className="d-flex flex-row justify-content-center align-items-center">
               <a href="https://github.com/dyane91" className="p-3" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab', 'github']} size="lg" color="black" />
