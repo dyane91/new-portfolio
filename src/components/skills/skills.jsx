@@ -18,9 +18,8 @@ export class Skills extends Component {
               <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">HTML</Badge>
               <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">CSS</Badge>
               <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">React</Badge>
-              <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">Redux</Badge>
-              <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Sequelize</Badge>
-              <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">PostgreSQL</Badge>
+              <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">React Native</Badge>
+              <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">Redux</Badge>   
               <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">Express</Badge>
               <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Node.js</Badge>
               <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">Bootstrap</Badge>
@@ -32,11 +31,14 @@ export class Skills extends Component {
             <div className="w-100">
               <p className="h2 mb-4">Familiar skills</p>
               <div className="w-75 mx-auto d-flex flex-wrap justify-content-lg-center">
-                <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Angular</Badge>
+                <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Firebase</Badge>
+                <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Typescript</Badge>
                 <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">Docker</Badge>
                 <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">Kubernetes</Badge>
                 <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Nativescript</Badge>
                 <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Semiotic</Badge>
+                <Badge pill className="da-badge-color py-3 px-4 px-md-5 m-2">Sequelize</Badge>
+                <Badge pill className="da-badge-color p-3 px-4 px-md-5 m-2">PostgreSQL</Badge>
               </div>
             </div>
           </div>
