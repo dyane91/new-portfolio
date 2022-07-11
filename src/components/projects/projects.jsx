@@ -94,7 +94,7 @@ export class Projects extends Component {
                   <Card.Body>
                     <Card.Title className="font-weight-bolder">Vim-City</Card.Title>
                     <Card.Text className="font-weight-light pb-2">Interactive web game where players learn Vim commands by navigating through a top-down city while applying their knowledge in coding exercises.</Card.Text>
-                    <Card.Link href="http://vim-city.herokuapp.com/" className="font-weight-bold">VISIT SITE</Card.Link>
+                    <Card.Link href="http://vim-city1.herokuapp.com/" className="font-weight-bold">VISIT SITE</Card.Link>
                   </Card.Body>
                 </Card>
               </div>
@@ -136,7 +136,7 @@ export class Projects extends Component {
                   <Card.Body>
                     <Card.Title className="font-weight-bolder">Grace Shopper</Card.Title>
                     <Card.Text className="font-weight-light pb-2">Fantasy e-commerce site that allows users to buy potions.</Card.Text>
-                    <Card.Link href="http://graceshopper-bluebarracudas.herokuapp.com/" className="font-weight-bold">VISIT SITE</Card.Link>
+                    <Card.Link href="https://grace-shopper1.herokuapp.com//" className="font-weight-bold">VISIT SITE</Card.Link>
                   </Card.Body>
                 </Card>
               </div>
