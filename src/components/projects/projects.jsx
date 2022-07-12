@@ -32,7 +32,7 @@ export class Projects extends Component {
                   <Card.Body>
                     <Card.Title className="font-weight-bolder">zDebt</Card.Title>
                     <Card.Text className="font-weight-light pb-2">This iOS app provides users with a detailed plan on how much to pay to each card/debt according to your end goal (strategy), as well as notifications for never missing a payment.</Card.Text>
-                    <Card.Link href="https://testflight.apple.com/join/d3fNRFFx" className="font-weight-bold">TRY BETA VERSION</Card.Link>
+                    <Card.Link href="https://testflight.apple.com/join/d3fNRFFx" className="font-weight-bold" target='_blank'>TRY BETA VERSION</Card.Link>
                   </Card.Body>
                 </Card>
               </div>
@@ -52,7 +52,7 @@ export class Projects extends Component {
                   <Card.Body>
                     <Card.Title className="font-weight-bolder">Follow-covid19</Card.Title>
                     <Card.Text className="font-weight-light pb-2">Web application to see up-to-date global COVID-19 statistics or to filter them by preferred country.</Card.Text>
-                    <Card.Link href="https://follow-covid19.info/" className="font-weight-bold">VISIT SITE</Card.Link>
+                    <Card.Link href="https://follow-covid19.info/" className="font-weight-bold" target='_blank'>VISIT SITE</Card.Link>
                   </Card.Body>
                 </Card>
               </div>
@@ -72,7 +72,7 @@ export class Projects extends Component {
                   <Card.Body>
                     <Card.Title className="font-weight-bolder">Leaves</Card.Title>
                     <Card.Text className="font-weight-light pb-2">Mobile Application* that helps you take care of your plants by giving basic care guide and watering notifications.</Card.Text>
-                    <Card.Link href="https://leaves-website-ec187.web.app/" className="font-weight-bold">VISIT SITE</Card.Link>
+                    <Card.Link href="https://leaves-website-ec187.web.app/" className="font-weight-bold" target='_blank'>VISIT SITE</Card.Link>
                     <Card.Text className="blockquote-footer">*In beta for iOS</Card.Text>
                   </Card.Body>
                 </Card>
@@ -94,7 +94,7 @@ export class Projects extends Component {
                   <Card.Body>
                     <Card.Title className="font-weight-bolder">Vim-City</Card.Title>
                     <Card.Text className="font-weight-light pb-2">Interactive web game where players learn Vim commands by navigating through a top-down city while applying their knowledge in coding exercises.</Card.Text>
-                    <Card.Link href="http://vim-city1.herokuapp.com/" className="font-weight-bold">VISIT SITE</Card.Link>
+                    <Card.Link href="http://vim-city1.herokuapp.com/" className="font-weight-bold" target='_blank'>VISIT SITE</Card.Link>
                   </Card.Body>
                 </Card>
               </div>
@@ -115,7 +115,7 @@ export class Projects extends Component {
                   <Card.Body>
                     <Card.Title className="font-weight-bolder">PlantApp</Card.Title>
                     <Card.Text className="font-weight-light pb-2">Web application that integrates machine learning to recognize plants based on the photo uploaded by the user.</Card.Text>
-                    <Card.Link href="https://plantapp-7f7fe.firebaseapp.com/#/" className="font-weight-bold">VISIT SITE</Card.Link>
+                    <Card.Link href="https://plantapp-7f7fe.firebaseapp.com/#/" className="font-weight-bold" target='_blank'>VISIT SITE</Card.Link>
                   </Card.Body>
                 </Card>
               </div>
@@ -136,7 +136,7 @@ export class Projects extends Component {
                   <Card.Body>
                     <Card.Title className="font-weight-bolder">Grace Shopper</Card.Title>
                     <Card.Text className="font-weight-light pb-2">Fantasy e-commerce site that allows users to buy potions.</Card.Text>
-                    <Card.Link href="https://grace-shopper1.herokuapp.com//" className="font-weight-bold">VISIT SITE</Card.Link>
+                    <Card.Link href="https://grace-shopper1.herokuapp.com//" className="font-weight-bold" target='_blank'>VISIT SITE</Card.Link>
                   </Card.Body>
                 </Card>
               </div>
