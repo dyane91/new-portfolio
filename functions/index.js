@@ -20,7 +20,7 @@ app.get('/hello', (req, res) => res.send('hoho'));
 
 app.get('/api/resume', (req, res) => {
 	res.contentType("application/pdf");
-	res.download(path.join(__dirname, 'static', 'DyaneAvalos.pdf'), (err) => {
+	res.download(path.join(__dirname, 'static', 'DyaneAvalosResume.pdf'), (err) => {
 		console.log('callback called from res.download');
 		if (err) {
 			console.error(`new error: ${err}`);

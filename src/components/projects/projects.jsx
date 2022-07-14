@@ -100,27 +100,6 @@ export class Projects extends Component {
               </div>
             </VerticalTimelineElement>
 
-            <VerticalTimelineElement
-              className=""
-              contentStyle={{ background: 'rgb(33, 150, 243)' }}
-              textClassName="p-2 d-flex align-items-center"
-              iconClassName="circle-timeline"
-              contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
-              <div className="d-flex flex-column flex-sm-row justify-content-around align-items-center">
-                <div className="d-flex justify-content-center align-items-center p-2">
-                  <FontAwesomeIcon icon={['fas', 'seedling']} size="3x" color="white" />
-                </div>
-                <Card className="w-100">
-                  <Card.Body>
-                    <Card.Title className="font-weight-bolder">PlantApp</Card.Title>
-                    <Card.Text className="font-weight-light pb-2">Web application that integrates machine learning to recognize plants based on the photo uploaded by the user.</Card.Text>
-                    <Card.Link href="https://plantapp-7f7fe.firebaseapp.com/#/" className="font-weight-bold" target='_blank'>VISIT SITE</Card.Link>
-                  </Card.Body>
-                </Card>
-              </div>
-           </VerticalTimelineElement>
-
            <VerticalTimelineElement
               className=""
               contentStyle={{ background: 'rgb(33, 150, 243)' }}
